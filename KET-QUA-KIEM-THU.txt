@@ -1,0 +1,45 @@
+MÔI TRƯỜNG KIỂM TRA NGÀY 31/10/2026
+Python 3.10.10; SQLite 3.39.4; macOS 15.0; Apple M1; RAM 8 GB.
+Kiểm tra sử dụng TempDirectory; không sửa cơ sở dữ liệu đang chạy.
+Thời gian dưới đây là thời gian bộ kiểm tra chức năng, không phải thời gian phản hồi hay kết quả kiểm thử tải.
+
+test_admin_can_transfer_leader_and_access_moves (test_app.AppTest) ... ok
+test_admin_cannot_lock_self (test_app.AppTest) ... ok
+test_anonymous_access_denied (test_app.AppTest) ... ok
+test_audit_records_changes (test_app.AppTest) ... ok
+test_bundled_fonts_and_styles (test_app.AppTest) ... ok
+test_crud_and_persistence (test_app.AppTest) ... ok
+test_csrf_and_origin (test_app.AppTest) ... ok
+test_inactive_leader_loses_access (test_app.AppTest) ... ok
+test_inactive_lecturer_loses_access (test_app.AppTest) ... ok
+test_invalid_inputs_do_not_change_data (test_app.AppTest) ... ok
+test_leader_account_requires_correct_person_link (test_app.AppTest) ... ok
+test_leader_can_edit_assignment_and_deadline (test_app.AppTest) ... ok
+test_leader_cannot_modify_or_delete_other_leader_tasks (test_app.AppTest) ... ok
+test_leader_only_sees_own_assignments (test_app.AppTest) ... ok
+test_leader_role (test_app.AppTest) ... ok
+test_leader_sees_same_shared_counts (test_app.AppTest) ... ok
+test_lecturer_can_update_own_allowed_fields (test_app.AppTest) ... ok
+test_lecturer_cannot_change_protected_fields (test_app.AppTest) ... ok
+test_lecturer_cannot_touch_other_tasks_or_create_delete (test_app.AppTest) ... ok
+test_lecturer_only_receives_own_tasks (test_app.AppTest) ... ok
+test_lecturer_stale_or_missing_version_rejected (test_app.AppTest) ... ok
+test_legacy_schema_migration_preserves_data (test_app.AppTest) ... ok
+test_login_rate_limit (test_app.AppTest) ... ok
+test_new_task_leader_is_derived_from_login (test_app.AppTest) ... ok
+test_new_tasks_always_start_pending (test_app.AppTest) ... ok
+test_no_database_or_path_traversal_exposure (test_app.AppTest) ... ok
+test_password_change_invalidates_session (test_app.AppTest) ... ok
+test_people_lifecycle (test_app.AppTest) ... ok
+test_person_link_change_invalidates_old_session (test_app.AppTest) ... ok
+test_reassignment_updates_lecturer_visibility (test_app.AppTest) ... ok
+test_setup_and_demo (test_app.AppTest) ... ok
+test_shared_workload_has_counts_only (test_app.AppTest) ... ok
+test_stale_edit_rejected (test_app.AppTest) ... ok
+test_user_person_links_validated (test_app.AppTest) ... ok
+test_viewer_read_only (test_app.AppTest) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 22.103s
+
+OK
